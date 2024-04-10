@@ -130,8 +130,8 @@ export default [
 This monorepo uses `changesets` to manage changes to all the config packages and for publishing packages.
 Check out the [changesets repo](https://github.com/changesets/changesets) for specific details. However, the basics
 are to run `npx changeset` when you are finished with a PR and it will prompt you to select a version increment (major, minor or patch)
-and to write some changenotes. Then when your PR is merged, it will automatically update the release notes and publish the new version
-of the package.
+and to write some changenotes. Then when your PR is merged, a PR will be created to update the release notes and publish the new version
+of the package automatically. When we are ready to make the release we can merge that release PR.
 
 
 ## References & More Reading
