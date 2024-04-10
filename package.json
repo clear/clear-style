@@ -1,0 +1,11 @@
+{
+  "name": "@clear/style",
+  "description": "Monorepo for code-style config packages",
+  "workspaces": [
+    "eslint-config",
+    "prettier-config"
+  ],
+  "dependencies": {
+    "@changesets/cli": "^2.27.1"
+  }
+}
