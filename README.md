@@ -37,7 +37,6 @@ Now set the `prettier` config key in your `package.json`.
     "name": "my-package",
     "version": "0.0.0",
     "prettier": "@clear/prettier-config",
-    ...
 }
 ```
 
@@ -56,9 +55,7 @@ Finally, add the eslint scripts to your `package.json`. When you call eslint it 
     "scripts": {
         "lint": "eslint .",
         "format": "eslint --fix .",
-        ...
     },
-    ...
 }
 ```
 
@@ -105,7 +102,7 @@ npm i -D prettier-plugin-svelte eslint-plugin-svelte
 
 Create a `.prettierrc.mjs` if you haven't already, then add `prettier-plugin-svelte` to the plugins array and add an override for svelte file extensions
 
-```json
+```js
 import prettierConfig from "@clear/prettier-config";
 
 export default {
