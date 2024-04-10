@@ -2,7 +2,7 @@
 
 Base configuration for clear code style.
 
-### Use with a project
+## Use with a project
 
 First add the clear-style config packages as a dev dependency.
 
@@ -59,7 +59,7 @@ Finally, add the eslint scripts to your `package.json`. When you call eslint it 
 }
 ```
 
-### Plugins (support for `svelte`, `angular` etc)
+## Plugins (support for `svelte`, `angular` etc)
 
 For maximum compatability, the configuration in this package doesn't include plugins to support svelte or angular syntax etc.
 To support those you'll need to add them to both your eslint and prettier configurations. 
@@ -90,7 +90,7 @@ export default {
 }
 ```
 
-#### Svelte Support
+### Svelte Support
 
 To support svelte syntax you'll need to make these changes to your config.
 
@@ -125,7 +125,7 @@ export default [
 ]
 ```
 
-### Contributing & Development
+## Contributing & Development
 
 This monorepo uses `changesets` to manage changes to all the config packages and for publishing packages.
 Check out the [changesets repo](https://github.com/changesets/changesets) for specific details. However, the basics
@@ -134,7 +134,7 @@ and to write some changenotes. Then when your PR is merged, it will automaticall
 of the package.
 
 
-### References & More Reading
+## References & More Reading
 
 - [Eslint config reference](https://eslint.org/docs/latest/use/configure/)
 - [Prettier config reference](https://prettier.io/docs/en/configuration)
