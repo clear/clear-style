@@ -1,6 +1,6 @@
 {
   "name": "@clear/prettier-config",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "main": "index.mjs",
   "description": "Prettier config plugin for clearxp projects",
   "author": "",
