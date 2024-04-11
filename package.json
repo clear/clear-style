@@ -5,7 +5,10 @@
     "eslint-config",
     "prettier-config"
   ],
-  "dependencies": {
+  "devDependencies": {
     "@changesets/cli": "^2.27.1"
+  },
+  "scripts": {
+    "ci:release": "changeset publish"
   }
 }
