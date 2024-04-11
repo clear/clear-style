@@ -1,5 +1,11 @@
 # @clear/eslint-config
 
+## 0.1.3
+
+### Patch Changes
+
+- ada8e6a: Add eslint-config-prettier as an explicit dependency
+
 ## 0.1.2
 
 ### Patch Changes
