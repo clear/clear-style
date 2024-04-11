@@ -5,6 +5,8 @@ on:
     branches:
       - main
 
+concurrency: ${{ github.workflow }}-${{ github.ref }}
+
 jobs:
   release:
     name: Release
@@ -21,15 +23,18 @@ jobs:
       - name: Install Dependencies
         run: npm i
 
-      - name: Create Release Pull Request or make a release
-        id: changesets
-        uses: changesets/action@v1
+      - name: Create .npmrc to auth w/ github packages
+        run: |
+          cat << EOF > "$HOME/.npmrc"
+            //npm.pkg.github.com/:_authToken=$GITHUB_TOKEN
+          EOF
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Create release tag
-        if: steps.changesets.outputs.hasChangesets == 'false'
-        run: |
-          npx changeset tag
-          git push --tags
-
+      - name: Create Release Pull Request or Publish to npm
+        id: changesets
+        uses: changesets/action@v1
+        with:
+          publish: npm run ci:release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
