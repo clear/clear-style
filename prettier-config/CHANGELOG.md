@@ -1,5 +1,11 @@
 # @clear/prettier-config
 
+## 0.1.2
+
+### Patch Changes
+
+- b08b7b8: Publish config packages to github packages
+
 ## 0.1.1
 
 ### Patch Changes
