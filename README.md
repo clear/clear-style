@@ -40,7 +40,7 @@ Now set the `prettier` config key in your `package.json`.
 }
 ```
 
-> ![INFO]
+> [!NOTE]
 > If you need to enable plugins or override the prettier config for your project,
 > you will instead need to create a `.prettierrc.mjs` file and spread the clear config into the export.
 > Checkout [Plugins](#plugins) below for more details.
@@ -92,8 +92,8 @@ export default {
 
 ### Svelte Support
 
-> ![NOTE]
-> I might also add a pre-defined svelte setup (TBD)
+> [!WARNING]
+> This setup will still be valid but Im going to setup `/svelte` exports that provide a shared svelte setup.
 
 To support svelte syntax you'll need to make these changes to your config.
 
