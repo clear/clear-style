@@ -1,5 +1,11 @@
 # @clear/eslint-config
 
+## 0.2.0
+
+### Minor Changes
+
+- 5394860: Split eslint config into a js and ts bundle
+
 ## 0.1.3
 
 ### Patch Changes
