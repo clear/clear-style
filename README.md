@@ -30,6 +30,10 @@ export default [
 ];
 ```
 
+> [!NOTE]
+> If using `clear-style` in a common js project without typescript, you should instead create a `eslint.config.cjs` file and
+> import the `@clear/eslint-config/js` config bundle.
+
 Now set the `prettier` config key in your `package.json`.
 
 ```json
