@@ -132,6 +132,11 @@ export default [
 ]
 ```
 
+### Mocha Support
+
+Check out [`eslint-plugin-mocha`](https://www.npmjs.com/package/eslint-plugin-mocha) for more details. You can use the `flat.recommended` config in your eslint
+config.
+
 ## Contributing & Development
 
 This monorepo uses `changesets` to manage changes to all the config packages and for publishing packages.
@@ -149,5 +154,6 @@ of the package automatically. When we are ready to make the release we can merge
     - [`eslint-plugin-svelte`](https://github.com/sveltejs/eslint-plugin-svelte)
     - [`eslint-plugin-prettier`](https://github.com/prettier/eslint-plugin-prettier)
     - [`typescript-eslint`](https://typescript-eslint.io/packages/typescript-eslint/#config)
+    - [`eslint-plugin-mocha`](https://www.npmjs.com/package/eslint-plugin-mocha) 
 - Prettier plugins
     - [`prettier-plugin-svelte`](https://github.com/sveltejs/prettier-plugin-svelte)
