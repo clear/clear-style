@@ -1,6 +1,6 @@
 {
   "name": "@clear/eslint-config",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "main": "index.mjs",
   "description": "Eslint config plugin for clear projects",
   "keywords": [
