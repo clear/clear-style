@@ -16,5 +16,9 @@
   },
   "peerDependencies": {
     "eslint": "^8.57.0"
+  },
+  "exports": {
+    "ts": "ts-config.mjs",
+    "js": "js-config.cjs"
   }
 }

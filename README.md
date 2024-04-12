@@ -20,7 +20,7 @@ Now create a `eslint.config.mjs` file to house your eslint configuration
 It should contain the following.
 
 ```js
-import clearConfig from "@clear/eslint-config";
+import clearConfig from "@clear/eslint-config/ts";
 
 export default [
     // Put any rule overrides or plugins here
@@ -68,7 +68,7 @@ To add a plugin to your eslint config, import the plugin in the `eslint.config.m
 and add it to the *start* of the config array.
 
 ```js
-import clearConfig from "@clear/eslint-config";
+import clearConfig from "@clear/eslint-config/ts";
 import someEslintPlugin from "some-eslint-plugin";
 
 export default [
@@ -91,6 +91,9 @@ export default {
 ```
 
 ### Svelte Support
+
+> ![NOTE]
+> I might also add a pre-defined svelte setup (TBD)
 
 To support svelte syntax you'll need to make these changes to your config.
 
@@ -115,7 +118,7 @@ export default {
 Add the eslint svelte plugin to your eslint config.
 
 ```js
-import eslintConfig from '@clear/eslint-config';
+import eslintConfig from '@clear/eslint-config/ts';
 import eslintSvelte from 'eslint-plugin-svelte';
 
 export default [
