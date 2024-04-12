@@ -1,5 +1,11 @@
 # @clear/eslint-config
 
+## 0.3.0
+
+### Minor Changes
+
+- b64bae7: Assume commonjs for js eslint config
+
 ## 0.2.0
 
 ### Minor Changes
