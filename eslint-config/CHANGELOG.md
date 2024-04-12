@@ -1,5 +1,11 @@
 # @clear/eslint-config
 
+## 0.4.0
+
+### Minor Changes
+
+- d1a0f6b: Allow unused variables that have \_ prefix
+
 ## 0.3.0
 
 ### Minor Changes
