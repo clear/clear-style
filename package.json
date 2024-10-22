@@ -3,7 +3,8 @@
   "description": "Monorepo for code-style config packages",
   "workspaces": [
     "eslint-config",
-    "prettier-config"
+    "prettier-config",
+    "prettier-config-svelte"
   ],
   "devDependencies": {
     "@changesets/cli": "^2.27.1"

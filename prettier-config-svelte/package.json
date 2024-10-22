@@ -1,11 +1,15 @@
 {
-  "name": "@clear/prettier-config",
-  "version": "0.1.3",
+  "name": "@clear/prettier-config-svelte",
+  "version": "0.1.0",
   "main": "index.mjs",
   "description": "Prettier config plugin for clearxp projects",
   "author": "",
   "license": "UNLICENSED",
   "peerDependencies": {
     "prettier": "^3.2.5"
+  },
+  "dependencies": {
+    "@clear/prettier-config": "^0.1.2",
+    "prettier-plugin-svelte": "^3.2.2"
   }
 }
