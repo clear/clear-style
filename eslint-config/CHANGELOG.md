@@ -1,5 +1,11 @@
 # @clear/eslint-config
 
+## 0.5.0
+
+### Minor Changes
+
+- 717d575: Update author field to be truthy
+
 ## 0.4.0
 
 ### Minor Changes

@@ -1,5 +1,11 @@
 # @clear/prettier-config
 
+## 0.3.0
+
+### Minor Changes
+
+- 717d575: Update author field to be truthy
+
 ## 0.2.0
 
 ### Minor Changes
