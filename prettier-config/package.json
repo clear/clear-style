@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "main": "index.mjs",
   "description": "Prettier config plugin for clearxp projects",
-  "author": "",
+  "author": "ClearXP",
   "license": "UNLICENSED",
   "peerDependencies": {
     "prettier": "^3.2.5"

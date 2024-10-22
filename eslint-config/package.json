@@ -6,7 +6,7 @@
   "keywords": [
     "eslint"
   ],
-  "author": "",
+  "author": "ClearXP",
   "license": "UNLICENSED",
   "dependencies": {
     "@eslint/js": "^9.0.0",
