@@ -1,5 +1,11 @@
 # @clear/prettier-config
 
+## 0.2.0
+
+### Minor Changes
+
+- c238d3c: Remove unused svelte plugin dep from config
+
 ## 0.1.2
 
 ### Patch Changes
