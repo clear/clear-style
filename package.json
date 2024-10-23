@@ -1,15 +1,14 @@
 {
-  "name": "@clear/style",
-  "description": "Monorepo for code-style config packages",
-  "workspaces": [
-    "eslint-config",
-    "prettier-config",
-    "prettier-config-svelte"
-  ],
-  "devDependencies": {
-    "@changesets/cli": "^2.27.1"
-  },
+  "name": "clear-style",
+  "description": "Monorepo for clear code style configuration",
+  "main": "index.js",
   "scripts": {
     "ci:release": "changeset publish"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.9"
   }
 }
