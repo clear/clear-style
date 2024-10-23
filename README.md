@@ -6,7 +6,15 @@ Monorepo storing configuration packages for checking, formatting and enforcing c
 
 To quickly get setup on a new project, add the package that matches the framework you are using.
 
+<hr />    
+
+<img align="right" style="float: right; width: 100px; padding-top: 150px;" src="https://github.com/user-attachments/assets/3de25dd6-dc5b-461b-b74c-afa3f4f6c44b" />
+
 ### Vanilla
+
+For setups that don't use any frameworks requiring special syntax or features. Has support for both esm/cjs and javascript/typescript.
+
+<br clear="both"/>
 
 First install `@clear/style`.
 
@@ -34,7 +42,15 @@ export default config;
 > If using `clear-style` in a common js project or a project without typescript, you should instead create a `eslint.config.cjs` file and
 > import the config from `@clear/style/eslint/js` instead.
 
+<hr />
+
+<img align="right" style="float: right; width: 100px; padding-top: 150px;" src="https://github.com/user-attachments/assets/7e11ae19-9481-49a8-b47b-fd85d0c11430" />
+
 ### Svelte
+
+For use with svelte/sveltekit framework. Automatically includes svelte parsing, formatting and linting using the official plugins for each.
+
+<br clear="both"/>
 
 First install `@clear/style-svelte`.
 
