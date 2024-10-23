@@ -1,7 +1,7 @@
 {
   "name": "@clear/style",
   "description": "Code style configuration for js/ts clearxp projects",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "scripts": {},
   "author": "ClearXP",
   "license": "ISC",
