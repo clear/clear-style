@@ -1,5 +1,11 @@
 # @clear/style-svelte
 
+## 0.3.1
+
+### Patch Changes
+
+- 82384bb: Fix svelte parsing
+
 ## 0.3.0
 
 ### Minor Changes
