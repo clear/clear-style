@@ -1,5 +1,12 @@
 # @clear/style-svelte
 
+## 0.3.2
+
+### Patch Changes
+
+- 3a46ed1: Explicitly add svelte prettier plugin dependency
+- d312e1a: Fix lockfile
+
 ## 0.3.1
 
 ### Patch Changes
