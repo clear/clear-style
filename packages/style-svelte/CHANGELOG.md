@@ -1,5 +1,11 @@
 # @clear/style-svelte
 
+## 0.4.0
+
+### Minor Changes
+
+- 9ef6fcd: Patched vulnerable dependencies
+
 ## 0.3.2
 
 ### Patch Changes
