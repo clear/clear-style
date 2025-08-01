@@ -1,7 +1,7 @@
 {
   "name": "@clear/style-svelte",
   "description": "Code style configuration for svelte clearxp projects",
-  "version": "0.3.2",
+  "version": "0.4.0",
   "scripts": {},
   "author": "ClearXP",
   "license": "ISC",
